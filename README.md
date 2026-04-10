@@ -81,7 +81,7 @@ Go to: http://localhost:3000
 
 ---
 
-## ML Model Details
+## 🤖 ML Model Details
 - **Algorithm**: Random Forest Classifier (100 trees)
 - **Features**: age, length_of_stay, num_procedures, num_medications, num_diagnoses, prev_admissions
 - **Target**: readmitted (0 or 1)
@@ -90,7 +90,7 @@ Go to: http://localhost:3000
 
 ---
 
-## What You Learn
+## 🚀 Key Learnings & Technical Highlights
 - React: `useState`, `useEffect`, component props, conditional rendering
 - Flask: REST API design, CORS, JSON responses
 - SQL: `GROUP BY`, `AVG`, `SUM`, subqueries, filtering
@@ -100,7 +100,7 @@ Go to: http://localhost:3000
 
 ---
 
-## Interview Talking Points
+## 🎯 Key Project Highlights
 1. "I built a full-stack readmission prediction system using React + Flask + SQLite"
 2. "SQL GROUP BY queries aggregate department-wise readmission rates"
 3. "Random Forest model predicts 30-day readmission with ~78% accuracy from 6 clinical features"
@@ -108,5 +108,9 @@ Go to: http://localhost:3000
 5. "Fallback to mock data when backend is offline — good UX practice"
 
 ---
+Live Demo 
+[🔗[ View on Netlify ((https://fluffy-profiterole-827ae6.netlify.app/))]]
+
+
 
 
