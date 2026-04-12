@@ -41,28 +41,6 @@ hospital-readmission/
 
 ---
 
-## Setup — Step by Step
-
-### Step 1: Clone / create project folder
-```bash
-mkdir hospital-readmission && cd hospital-readmission
-```
-
-### Step 2: Setup Backend
-```bash
-cd backend
-pip install -r requirements.txt
-python database.py       # creates patients.db with 500 rows
-python model.py          # trains Random Forest, saves model.pkl
-python app.py            # starts Flask on http://localhost:5000
-```
-
-### Step 3: Setup Frontend (new terminal)
-```bash
-cd frontend
-npm install
-npm start                # starts React on http://localhost:3000
-```
 
 ### Step 4: Open browser
 Go to: http://localhost:3000
